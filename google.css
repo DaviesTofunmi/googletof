@@ -1,0 +1,403 @@
+body{
+    background-image: url(spidey3.jpg);
+    background-color: rgb(31, 31, 31);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    justify-content: right;
+    cursor: pointer;
+}
+.nav p{
+    font-size: 13px;
+}
+.apps{
+width: 40px;
+height: 40px;
+border-radius: 6rem;
+
+}
+.material-symbols-outlined{
+  margin-top: 0.4rem;
+  margin-left: 0.1rem;
+}
+.apps:hover{
+    background-color: rgb(64, 64, 64);
+    
+}
+.parentcontainer{
+    position: absolute;
+    background-color: rgb(112, 52, 52);
+    width: 350px;
+    height: 465px;
+    right: 20px;
+    border-radius: 1rem;
+    display: none;
+    overflow-y: scroll;
+    
+  
+    
+ 
+}
+
+.c1{
+    margin: 0.4rem;
+   padding-top: 1rem;
+   background-color: rgb(66, 29, 29);
+    height: 145%;
+    border-radius: 1rem 1rem 0rem 0rem ;
+    display: flex;
+    
+}
+
+
+.c2{
+    margin: 0.4rem;
+   padding-top: 1rem;
+   background-color: rgb(66, 29, 29);
+    height: 145%;
+    border-radius: 0rem 0rem 1rem 1rem ;
+    display: flex;
+    
+}
+
+
+.appbutton{
+    background: none;
+    border: none;
+    color: white;
+}
+.apps:focus-within .parentcontainer{
+    display: block;
+}
+.line1{
+   
+    height: 22%;
+   
+    gap: 20px;
+ 
+    display: block
+    
+}
+.line2{
+   
+    height: 22%;
+   
+    gap: 20px;
+ 
+    display: block
+    
+}
+.line3{
+   
+    height: 22%;
+   
+    gap: 20px;
+ 
+    display: block
+    
+}
+.item1{
+  
+    width: 100px;
+    display: block;
+    padding: 6px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.item1 img{
+    width: 50px;
+}
+.item1:hover{
+    background-color: rgba(198, 64, 64, 0.381);
+    transition: all 1s ease;
+}
+.buttdiv{
+    display: flex;
+    justify-content: center;
+}
+.buttdiv button{
+    background: none;
+    height: 45px;
+    color: rgb(126, 152, 255);
+  
+    border-radius: 2rem;
+    width: 160px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+}
+
+.profilepic{
+    
+    height: 35px;
+    width: 35px;
+    border-radius: 55px;
+    margin-left: -3.3px;
+    margin-top: 1.5px;
+}
+.profilepicdiv{
+    height: 40px;
+    width: 40px;
+    border-radius: 55px;
+
+}
+.profilepicdiv:hover{
+    background-color: gray;
+}
+.profilebutton{
+    background: none;
+    border: none;
+}
+.profiledropdown{
+    height: 365px;
+    width: 400px;
+    background-color: rgba(112, 52, 52, 0.745);
+    position: absolute;
+    right: 20px;
+    border-radius: 1rem;
+    display: none;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.profilepicdiv:focus-within .profiledropdown{
+    display: flex;
+    flex-direction: column;
+}
+.profilepic2{
+    height: 80px;
+    width: 80px;
+    border-radius: 55px;
+}
+.tofunmi p{
+    font-size: 20px;
+}
+.manage{
+    background: none;
+    height: 45px;
+    color: rgb(161, 180, 255);
+  
+    border-radius: 2rem;
+    width: 250px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+}
+
+.add{
+    background-color: rgb(38, 37, 37);
+    width: 185px;
+    gap: 5px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem 0rem 0rem 3rem;
+}
+.add span{
+    margin-top: 0px;
+    color: rgb(161, 180, 255);
+}
+.signout{
+    background-color: rgb(38, 37, 37);
+    height: 60px;
+    gap: 5px;
+    justify-content: center;
+    width: 185px;
+    display: flex;
+    align-items: center;
+    border-radius: 0rem 3rem 3rem 0rem;
+
+}
+.signout span{
+    margin-top: 0px;
+}
+
+
+.dividedbox{
+    display: flex;
+    gap: 2px;
+}
+.terms{
+    margin-top: 0.5rem;
+    gap: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.terms p{
+    font-weight: 100;
+    font-size: 12px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+.logo{
+    margin-top: 10rem;
+    width: 400px;
+   
+}
+.searchbar{
+    color:white;
+    display: flex;
+    width: 600px;
+    height: 30px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(112, 52, 52);
+}
+.googlelens{
+    width: 28px;
+}
+.googlemic{
+    width: 28px;
+}
+.inputbar{
+    color: white;
+    width: 60vh;
+    height: 100%;
+    background: none;
+    border: none;  
+    outline: none;  
+}
+.inputbutton{
+    
+    background: none;
+    outline: none;
+    border: none;
+    
+}
+.inputdropdown{
+    width: 619.75px;
+    height: 35vh;
+    background-color: rgb(112, 52, 52);
+    position: absolute;
+    top: 52.0%;
+    left: 410px;
+    display: none;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+}
+.dropdownitem{
+   
+    display: flex;
+    width: 96.8%;
+    height: 4vh;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  
+   
+    
+}
+.item2and3{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdownitem span{
+    font-size: 18px;
+}
+.item2and3 span{
+    display: none;
+}
+.dropdownitem:hover .item2and3 span{
+    display: block;
+
+}
+.dropdownitem:hover{
+    background-color: rgba(178, 87, 87, 0.447);
+}
+.searchbar:focus-within {
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    border-bottom: none;
+
+}
+.searchbar:focus-within .inputdropdown{
+    display: block;
+}
+
+.content2{
+    height: 30vh;
+    width: 85vh;
+    margin-top: 2rem;
+}
+.content2 p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.icon{
+    
+    
+}
+#morevert{
+    position: absolute;
+    margin-left: 1.8rem;
+    margin-top: -0.5rem;
+    font-size: 20px;
+    border-radius: 1rem;
+    display: none;
+    transition: 1s ease;
+
+
+}
+#morevert:hover{
+    background-color: rgb(172, 118, 118);
+   
+}
+.i1:hover #morevert{
+    display: inline;
+}
+.r1{
+    width: 100%;
+
+    display: flex;
+    gap: 8px;
+   
+}
+.i1{
+    color: white;
+    height: 80px;
+    width: 150px;
+    display: block;
+    padding-top: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.r2{
+    margin-top: 2rem;
+    width: 100%;
+
+    display: flex;
+    gap: 8px;
+   
+}
+.i1:hover{
+    transition: all 0.5s linear;
+    background-color:  rgba(225, 112, 112, 0.447);
+}
+
